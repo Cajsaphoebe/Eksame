@@ -12,8 +12,19 @@ img {
 
 h1 {
     margin-top: 5vw;
-    margin-left: 47vw
+    margin-left: 47vw;
+    font-family: Libre Baskerville', serif;
+
 }
+
+h2 {
+    font-family: font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /*menu*/
 
