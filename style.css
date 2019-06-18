@@ -141,6 +141,7 @@ a:hover {
     padding: 1.5rem;
     width: 300px;
     height: 350px;
+    align-items: center;
 
 
 }
@@ -276,7 +277,7 @@ a:hover {
 }
 
 #indhold .colto video {
-    width: 40vw
+    width: 40vw;
 }
 
 
@@ -297,6 +298,14 @@ a:hover {
 
 
         /* This makes the menu horisontal */
+    }
 
+    #splash {
+        width: 99vw;
+        height: 100vh;
+        background-image: url(billeder/lillespalsh.png);
+        background-size: cover;
+        background-position: 5%;
+        max-width: none;
     }
 }
