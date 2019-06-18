@@ -120,6 +120,7 @@ a:hover {
     flex-wrap: wrap;
     margin-top: 1vw;
     background-color: white;
+    padding: 1.5rem;
 
 }
 
@@ -128,8 +129,8 @@ a:hover {
     flex-basis: 100px;
     background-color: #c9e6f2;
     padding: 1.5rem;
-    margin: 2vw;
     align-items: center;
+       margin: 20px;
 
 
 
@@ -138,11 +139,80 @@ a:hover {
 #om .col img {
     flex-grow: 2;
     flex-basis: 100px;
-    padding: 1.5rem;
     width: 300px;
     height: 350px;
     align-items: center;
 
+
+}
+
+/*ÅBEN BOKS I CV*/
+#box {
+    background-color: #c9e6f2;
+    position: relative;
+    padding: 15px 10px 20px;
+    flex-basis: 300px;
+    flex-grow: 3;
+    align-items: center;
+    margin: 20px;
+}
+
+#box.lille {
+    overflow: hidden;
+    max-height: 250px;
+    transition: max-height 0.5s ease-out;
+}
+
+#box.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+/*Laver indhold vha css*/
+#box.lille span:after {
+    content: "+";
+}
+
+span:after {
+    content: "-";
+}
+
+
+#mere .plus {
+    /*    for at få den nærmere på bunden*/
+    margin-top: 40px;
+
+    /*    for at undgå at den opfører sit som et blockelement, og fylder hele bredden. */
+    /*    Derved sikrer jeg at jeg kan bruge parrent text-align: center */
+    display: inline-block;
+
+    /*    selve plussets farve og størrelse samt baggrund*/
+    color: black;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+
+
+.brunt_overlay {
+    /* for at få gradientbaggrunden til at fylde*/
+    height: 60px;
+    margin: 0;
+
+    /* for at placere gradientbaggrunden i bunden */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*    For at sikre at den fylder hele sin parent ud i bredden*/
+    width: 100%;
+
+    /*    selve gradienten*/
+    background: linear-gradient(rgba(159, 144, 125, 0), #c9e6f2);
+
+    /*    for at placere plusset i midten*/
+    text-align: center;
 
 }
 
