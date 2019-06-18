@@ -381,9 +381,26 @@ span:after {
     width: 40vw;
 }
 
+
 /*Indhold oversigt Slut */
 
-@media only screen and (max-width: 600px) {
+footer {
+    background-color: #c9e6f2;
+    max-width: 100%;
+    text-align: center;
+    height: 100px;
+
+}
+
+footer p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+ss @media only screen and (max-width: 600px) {
 
     #menuknap {
         display: inline-block;
