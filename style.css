@@ -1,0 +1,302 @@
+/*menu*/
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #f2f2d9;
+}
+
+img {
+    width: 100%
+}
+
+h1 {
+    margin-top: 5vw;
+    margin-left: 47vw
+}
+
+.hidden {}
+
+#menuknap {
+    display: none;
+    font-size: 2.5em;
+
+}
+
+
+header {
+    position: fixed;
+    left: 0;
+    background-color: #c9e6f2;
+    width: 100%;
+    top: 0;
+
+
+}
+
+nav {
+    color: black;
+    text-align: right;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    padding: 7px;
+
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu a {
+    display: inline-block;
+    /* This makes the menu vertical */
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+}
+
+
+
+/*menuslut*/
+
+/*splash*/
+#splash {
+    width: 99vw;
+    height: 100vh;
+    background-image: url(billeder/bag2.png);
+    background-size: cover;
+    background-position: 5%;
+    max-width: none;
+}
+
+/*splashslut*/
+
+#port .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    background-color: white;
+}
+
+
+
+
+#port .box {
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+    box-sizing: content-box;
+    flex-basis: 400px;
+    flex-grow: 2;
+    background-color: #c9e6f2;
+    width: 15%;
+    height: 20%;
+
+}
+
+
+
+
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    background-color: white;
+
+}
+
+#om .col {
+    flex-grow: 2;
+    flex-basis: 100px;
+    background-color: #c9e6f2;
+    padding: 1.5rem;
+    margin: 2vw;
+    align-items: center;
+
+
+
+}
+
+#om .col img {
+    flex-grow: 2;
+    flex-basis: 100px;
+    padding: 1.5rem;
+    width: 300px;
+    height: 350px;
+
+
+}
+
+
+#web .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c9e6f2;
+
+
+}
+
+
+#web .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+}
+
+#ux .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c9e6f2;
+
+
+}
+
+
+#ux .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+}
+
+#ux .sectionwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c9e6f2;
+
+
+}
+
+#ux .col2 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+}
+
+#ux img {
+    width: 20vw;
+    height: 30vw;
+
+}
+
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c9e6f2;
+
+
+}
+
+
+#animation .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+}
+
+#indhold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c9e6f2;
+
+
+}
+
+
+#indhold .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+}
+
+#indhold .sectionwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c9e6f2;
+
+
+}
+
+#indhold .colto {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+    margin: 1rem;
+    align-items: center;
+}
+
+#indhold .colto video {
+    width: 40vw
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #menuknap {
+        display: inline-block;
+    }
+
+    .hidden {
+        display: none;
+
+
+    }
+
+    #menu a {
+        display: block;
+
+
+        /* This makes the menu horisontal */
+
+    }
+}
