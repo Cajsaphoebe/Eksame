@@ -283,8 +283,18 @@ span:after {
 #ux img {
     width: 20vw;
     height: 30vw;
+    flex-wrap: wrap;
+
 
 }
+
+#ux .col img {
+    width: 20vw;
+    height: 30vw;
+
+}
+
+
 
 /*UX oversigt slut */
 
